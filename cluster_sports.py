@@ -97,7 +97,7 @@ def prompt_dimensions():
 for each dimension you want to cluster on (Example: 4, 7, 2, 3): ")
         valid, dimensions, message = validate_dimensions(dimensions_input)
 
-    dimensions = set(dimensions)
+    dimensions = list(set(dimensions))
     dimension_names = [ALL_DIMENSIONS[dim][0] for dim in dimensions]
     print('Chosen dimensions: ' + ', '.join(dimension_names))
     return dimensions
