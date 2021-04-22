@@ -1,4 +1,4 @@
-# sports-similarity-clustering
+# sports-clustering
 
 🎾🏀🏈⚽️🥊🏒🤼‍♂️🥋🤸🏽‍♀️⚾️⛷🤽🏿🏉🥍🐎🏑⛸🚴🏻‍♂️🏐🏸🏄🏿🤺🎿🤾🏾‍♀️🏎👟🤿🏊🏼‍♀️🛹🚣🏿‍♀️🐄🏋🏾‍♂️🏓🏇🏿🏌🏻‍♀️📣🛼🐴🏹🥌🎳🔫🎱🎣
 
@@ -17,7 +17,7 @@ This Python script can be used to cluster the sports based on those attributes.
 
 **Note**: This is more an exploration of the data and me messing around with a clustering algorithm called [lloyd's algorithm](https://en.wikipedia.org/wiki/Lloyd%27s_algorithm). I think I'll add a frontend UI to find similar sports or something more user-friendly later on [my blog](https://singlethreaded.me). For now, feel free to enjoy the data! Maybe make something of your own :D
 
-**Note 2** Notable missing sport: cricket 🏏! How can you miss this ESPN? Arguable the 2nd most popular sport on the planet.
+**Note 2**: Notable missing sport: cricket 🏏! How can you miss this ESPN? Arguable the 2nd most popular sport on the planet.
 
 
 ## More information
