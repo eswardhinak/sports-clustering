@@ -60,6 +60,8 @@ def lloyds_algorithm(means, sports_dimensions_data, num_dimensions, num_clusters
 
 
 def validate_dimensions(dimensions_input):
+    if dimensions_input.lower() == 'all':
+        return (True, [i for i in range(10)], 'Success')
     dimensions_input = dimensions_input.split(',')
     dimensions_list = []
     try:

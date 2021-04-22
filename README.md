@@ -1,89 +1,32 @@
-# Sports-Comparative-Analysis
-Clusters different sports by their rankings in 10 different attributes.
+# sports-similarity-clustering
+
+I found [this dataset](http://www.espn.com/espn/page2/sportSkills) from ESPN where "experts" ranked 59 sports based on 10 different attributes each.
+
+I wrote this Python script to cluster these sports based on those attributes.
+
+## How to run
+1. Download this repo as a directory and run `python3 cluster_sports.py`.
+
+2. The program will prompt you to select which dimensions to cluster on and how many clusters you want to create.
+
+3. The clusters will print out pretty quickly!
+
+**Hint**: I wouldn't choose more than 2-4 dimensions to cluster on and 5 or so clusters. You *can* choose all 10 dimensions and cluster into up to 59 clusters. But the output starts to feel meaningless after 2-4 dimensions and 5ish clusters.
+
+**Note**: This is more an exploration of the data and me messing around with a clustering algorithm called lloyd's. I think I'll add a frontend UI to find similar sports or something more user-friendly later. But for now, feel free to enjoy the data! Maybe make something of your own :D
 
 
-This just takes data from ESPN (http://www.espn.com/espn/page2/sportSkills) and allows the user to cluster the sports based on
-the dimensions they want to cluster on and the number of clusters.
+## More information
+You can find this all in `constants.py` and `sports_rankings.csv`, but the attributes that ESPN ranked sports on were: 
+1. **Endurance** - The ability to continue to perform a skill or action for long periods of time.
+2. **Strength** - The ability to produce force.
+3. **Power** - The ability to produce strength in the shortest possible time.
+4. **Speed** - The ability to move quickly.
+5. **Agility** - The ability to change direction quickly.
+6. **Flexibility** - The ability to stretch the joints across a large range of motion.
+7. **Nerve** - The ability to overcome fear. 
+8. **Durability** - The ability to withstand physical punishment over a long period of time.
+9. **Hand-eye Coordination** - The ability to react quickly to sensory perception.
+10. **Analytical Aptitude** - The ability to evaluate and react appropriately to strategic situations.
 
-Example:
-
-If we cluster in 6 clusters based on Hand Eye Coordination and Analytical Thinking, the clusters are:
-
-Cluster # 0
-HAN ANA 
-[6.0, 6.38]
-	Boxing
-	Football
-	Martial Arts
-	Water Polo
-	Field Hockey
-	Volleyball
-	Team Handball
-	Badminton
-	Golf
-Cluster # 1
-HAN ANA 
-[6.5, 7.5]
-	Ice Hockey
-	Basketball
-	Tennis
-	Baseball/Softball
-	Soccer
-	Lacrosse
-	Racquetball/Squash
-	Fencing
-	Auto Racing
-	Table Tennis
-Cluster # 2
-HAN ANA 
-[3.13, 4.25]
-	Speed Skating
-	Figure Skating
-	Cycling: Distance
-	Cycling: Sprints
-	Skiing: Nordic
-	Rowing
-	Track and Field: Distance
-	Track and Field: Middle Distance
-	Canoe/Kayak
-	Equestrian
-	Fishing
-Cluster # 3
-HAN ANA 
-[4.38, 5.63]
-	Wrestling
-	Skiing: Alpine
-	Rugby
-	Surfing
-	Horse Racing
-	Curling
-	Billiards
-Cluster # 4
-HAN ANA 
-[4.5, 4.13]
-	Gymnastics
-	Rodeo: Steer Wrestling
-	Track and Field: Pole Vault
-	Skiing: Freestyle
-	Bobsledding/Luge
-	Rodeo: Calf Roping
-	Archery
-	Bowling
-	Shooting
-Cluster # 5
-HAN ANA 
-[4.0, 3.13]
-	Ski Jumping
-	Track and Field: High Jump
-	Track and Field: Long, Triple jumps
-	Diving
-	Swimming (all strokes): Distance
-	Skateboarding
-	Track and Field: Sprints
-	Rodeo: Bull/Bareback/Bronc Riding
-	Weight-Lifting
-	Swimming (all strokes): Sprints
-	Water Skiing
-	Track and Field: Weights
-	Cheerleading
-	Roller Skating
+Also, I didn't make these rankings. Apparently, a panel of sports scientists from the US Olympic Committee did.
