@@ -1,5 +1,7 @@
 # sports-similarity-clustering
 
+🎾🏀🏈⚽️🥊🏒🤼‍♂️🥋🤸🏽‍♀️⚾️⛷🤽🏿🏉🥍🐎🏑⛸🚴🏻‍♂️🏐🏸🏄🏿🤺🎿🤾🏾‍♀️🏎👟🤿🏊🏼‍♀️🛹🚣🏿‍♀️🐄🏋🏾‍♂️🏓🏇🏿🏌🏻‍♀️📣🛼🐴🏹🥌🎳🔫🎱🎣
+
 I found [this dataset](http://www.espn.com/espn/page2/sportSkills) from ESPN where "experts" ranked 59 sports based on 10 different attributes each.
 
 I wrote this Python script to cluster these sports based on those attributes.
