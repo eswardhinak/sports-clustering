@@ -7,7 +7,7 @@ I found [this dataset](http://www.espn.com/espn/page2/sportSkills) from ESPN whe
 This Python script can be used to cluster the sports based on those attributes.
 
 ## How to run
-1. Download this repo as a directory and run `python3 cluster_sports.py`.
+1. Download this repo as a directory or clone it and run `python3 cluster_sports.py`.
 
 2. The program will prompt you to select which dimensions to cluster on and how many clusters you want to create.
 
