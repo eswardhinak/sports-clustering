@@ -29,4 +29,10 @@ You can find this all in `constants.py` and `sports_rankings.csv`, but the attri
 9. **Hand-eye Coordination** - The ability to react quickly to sensory perception.
 10. **Analytical Aptitude** - The ability to evaluate and react appropriately to strategic situations.
 
-Also, I didn't make these rankings. Apparently, a panel of sports scientists from the US Olympic Committee did.
+Also, I didn't make these rankings. Apparently, a panel of sports scientists from the US Olympic Committee did. 🤷🏾‍♂️
+
+🎾🏀🏈⚽️🥊🏒🤼‍♂️🥋🤸🏽‍♀️⚾️⛷🤽🏿🏉🥍🐎🏑⛸🚴🏻‍♂️🏐🏸🏄🏿🤺🎿🤾🏾‍♀️🏎👟🤿🏊🏼‍♀️🛹🚣🏿‍♀️🐄🏋🏾‍♂️🏓🏇🏿🏌🏻‍♀️📣🛼🐴🏹🥌🎳🔫🎱🎣
+
+
+
+
