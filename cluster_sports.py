@@ -143,7 +143,6 @@ initial_means = get_initial_means(sports_dimensions_data, dimensions, num_cluste
 clusters, means = lloyds_algorithm(initial_means, sports_dimensions_data, len(dimensions), num_clusters, max_iterations=1000)
 
 # displaying results
-dimension_string = ""
 dimension_names = [ALL_DIMENSIONS[dim][0] for dim in dimensions]
 dimension_text = ', '.join(dimension_names)
 
