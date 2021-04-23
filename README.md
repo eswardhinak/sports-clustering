@@ -2,7 +2,7 @@
 
 🎾🏀🏈⚽️🥊🏒🤼‍♂️🥋🤸🏽‍♀️⚾️⛷🤽🏿🏉🥍🐎🏑⛸🚴🏻‍♂️🏐🏸🏄🏿🤺🎿🤾🏾‍♀️🏎👟🤿🏊🏼‍♀️🛹🚣🏿‍♀️🐄🏋🏾‍♂️🏓🏇🏿🏌🏻‍♀️📣🛼🐴🏹🥌🎳🔫🎱🎣
 
-I found [this dataset](http://www.espn.com/espn/page2/sportSkills) from ESPN where "experts" ranked 59 sports based on 10 different attributes each. Every sport is given a score out of 10 for each attribute - corresponding relatively to how much of that attribute is required for each sport. Definitely not hand-wavy. :)
+I found [this dataset](http://www.espn.com/espn/page2/sportSkills) from ESPN's Page 2 where "experts" ranked 59 sports based on 10 different attributes each. Every sport is given a score out of 10 for each attribute - corresponding relatively to how much of that attribute is required for each sport.
 
 This Python script can be used to cluster the sports based on those attributes.
 
@@ -19,6 +19,7 @@ This Python script can be used to cluster the sports based on those attributes.
 
 **Note 2**: Notable missing sport: cricket 🏏! How can you miss this ESPN? Arguable the 2nd most popular sport on the planet.
 
+**About Page 2**: Page 2 was one of the first casual sports blogs on the Internet. Hunter Thompson was a columnist at Page 2! Here's one of his articles, [Fear And Loathing in America](http://proxy.espn.com/espn/page2/story?id=1250751), from right after 9/11 where he foretells America's forever war.
 
 ## More information
 You can find this all in `constants.py` and `sports_rankings.csv`, but the attributes that ESPN ranked sports on were: 
@@ -32,8 +33,6 @@ You can find this all in `constants.py` and `sports_rankings.csv`, but the attri
 8. **Durability** - The ability to withstand physical punishment over a long period of time.
 9. **Hand-eye Coordination** - The ability to react quickly to sensory perception.
 10. **Analytical Aptitude** - The ability to evaluate and react appropriately to strategic situations.
-
-Also, I didn't make these rankings. Apparently, a panel of sports scientists from the US Olympic Committee did. 🤷🏾‍♂️
 
 🎾🏀🏈⚽️🥊🏒🤼‍♂️🥋🤸🏽‍♀️⚾️⛷🤽🏿🏉🥍🐎🏑⛸🚴🏻‍♂️🏐🏸🏄🏿🤺🎿🤾🏾‍♀️🏎👟🤿🏊🏼‍♀️🛹🚣🏿‍♀️🐄🏋🏾‍♂️🏓🏇🏿🏌🏻‍♀️📣🛼🐴🏹🥌🎳🔫🎱🎣
 
