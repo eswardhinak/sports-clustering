@@ -19,8 +19,6 @@ This Python script can be used to cluster the sports based on those attributes.
 
 **Note 2**: Notable missing sport: cricket 🏏! How can you miss this ESPN? Arguable the 2nd most popular sport on the planet.
 
-**About Page 2**: Page 2 was one of the first casual sports blogs on the Internet. Hunter Thompson was a columnist at Page 2! Here's one of his articles, [Fear And Loathing in America](http://proxy.espn.com/espn/page2/story?id=1250751), from right after 9/11 where he foretells America's forever war.
-
 ## More information
 You can find this all in `constants.py` and `sports_rankings.csv`, but the attributes that ESPN ranked sports on were: 
 1. **Endurance** - The ability to continue to perform a skill or action for long periods of time.
