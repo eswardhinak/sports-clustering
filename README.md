@@ -17,7 +17,7 @@ This Python script can be used to cluster the sports based on those attributes.
 
 **Note**: I think I'll add a frontend UI to find similar sports or something more user-friendly later on [my blog](https://singlethreaded.me). For now, feel free to enjoy the data! Maybe make something of your own :D
 
-**Note 2**: Notable missing sport: cricket 🏏! How can you miss this ESPN? Arguable the 2nd most popular sport on the planet.
+**Note 2**: Notable missing sport: cricket 🏏! How can you miss this ESPN? Arguably the 2nd most popular sport on the planet.
 
 ## More information
 You can find this all in `constants.py` and `sports_rankings.csv`, but the attributes that ESPN ranked sports on were: 
