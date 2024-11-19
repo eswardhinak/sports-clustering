@@ -15,7 +15,7 @@ This Python script can be used to cluster the sports based on those attributes.
 
 **Hint**: I wouldn't choose more than 2-4 dimensions to cluster on and 5 or so clusters. You *can* choose all 10 dimensions and cluster into up to 59 clusters. But the output starts to feel meaningless after 2-4 dimensions and 5ish clusters. **This has more to do with the lack of good data visualization**. For now, the program just spits out the clusters, the means, and the sports in each cluster.
 
-**Note**: This is more an exploration of the data and me messing around with a clustering algorithm called [lloyd's algorithm](https://en.wikipedia.org/wiki/Lloyd%27s_algorithm). I think I'll add a frontend UI to find similar sports or something more user-friendly later on [my blog](https://singlethreaded.me). For now, feel free to enjoy the data! Maybe make something of your own :D
+**Note**: I think I'll add a frontend UI to find similar sports or something more user-friendly later on [my blog](https://singlethreaded.me). For now, feel free to enjoy the data! Maybe make something of your own :D
 
 **Note 2**: Notable missing sport: cricket 🏏! How can you miss this ESPN? Arguable the 2nd most popular sport on the planet.
 
